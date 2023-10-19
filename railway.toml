@@ -1,0 +1,13 @@
+[env]
+DJANGO_SECRET_KEY = 'django-insecure-&j40mp37w(9xx_ns!dk7*j3v52a=yr@-y8(@#yp^x2&4w1-u50'
+DEBUG = "False"
+
+# Specify the ASGI server command to run your application
+[build]
+start = "daphne mysite.asgi:application"
+
+# Set the Python version to use
+[build.environment]
+PYTHON_VERSION = "3.10.12"
+
+
